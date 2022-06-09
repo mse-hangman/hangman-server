@@ -244,7 +244,6 @@ public class WebSocketHandler extends TextWebSocketHandler{
 		matching.remove(session);
 		targetWord.remove(session.getId());
 		turn.remove(session);
-		
 	}
 	
 	public WebSocketSession getCounterpartSession(WebSocketSession mySession, Integer gameroomId) {
